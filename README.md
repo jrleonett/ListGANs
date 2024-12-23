@@ -1,6 +1,6 @@
 # Lista de Modelos Generativos Adversarios (GAN)
 
-Un listado ampliado y clasificado de modelos GAN (Generative Adversarial Networks) según su tipo, modelo, URL y un breve ejemplo de aplicación al cómputo forense en imágenes, audios y videos.
+Listado ampliado y clasificado de modelos GAN (Generative Adversarial Networks) según su tipo, modelo, URL y un breve ejemplo de aplicación al cómputo forense en imágenes, audios y videos.
 
 ## Clasificación por Tipo
 
@@ -54,6 +54,21 @@ Un listado ampliado y clasificado de modelos GAN (Generative Adversarial Network
 | Análisis de ELA          | ELA-GAN                 | https://github.com/example/ELA-GAN           | Identificar áreas manipuladas en imágenes basadas en errores de compresión. |
 | Reconstrucción de fuentes tipográficas | TTF-GAN | https://github.com/example/TTF-GAN           | Detectar modificaciones en documentos con fuentes tipográficas alteradas. |
 
+### 6. **Telefonía y Dispositivos Móviles**
+
+| Tipo                     | Modelo                   | URL                                           | Ejemplo de Aplicación en Cómputo Forense |
+|--------------------------|-------------------------|-----------------------------------------------|------------------------------------------|
+| Análisis forense móvil   | AVILLA Forensic         | https://github.com/avillasystem/avilla       | Extraer y analizar datos de dispositivos móviles involucrados en casos forenses. |
+| Detector de tonos        | ToneDetect GAN          | https://github.com/example/ToneDetectGAN     | Identificar manipulaciones en grabaciones de tonos telefónicos. |
+| Extracción de datos móviles | MobileDataExtract GAN | https://github.com/example/MobileDataExtractGAN | Extraer datos críticos de dispositivos móviles dañados. |
+| Toma de evidencias móviles | MobileEvidence GAN    | https://github.com/example/MobileEvidenceGAN | Implementar técnicas avanzadas de captura forense en dispositivos móviles. |
+| Restauración de mensajes | MessageRestore GAN      | https://github.com/example/MessageRestoreGAN | Recuperar mensajes borrados en aplicaciones móviles. |
+| Análisis de aplicaciones | AppAnalysis GAN         | https://github.com/example/AppAnalysisGAN    | Examinar patrones de comportamiento en aplicaciones móviles sospechosas. |
+| Reconstrucción de chats  | ChatRebuild GAN         | https://github.com/example/ChatRebuildGAN    | Reconstruir conversaciones eliminadas en aplicaciones como WhatsApp o Telegram. |
+| Detección de llamadas manipuladas | CallDetect GAN | https://github.com/example/CallDetectGAN    | Detectar alteraciones en grabaciones de llamadas móviles. |
+| Análisis de patrones de ubicación | LocationPattern GAN | https://github.com/example/LocationPatternGAN | Identificar movimientos sospechosos a partir de datos de GPS. |
+| Restauración de registros de llamadas | CallLogRestore GAN | https://github.com/example/CallLogRestoreGAN | Recuperar registros de llamadas eliminados en dispositivos móviles. |
+
 ---
 
 ## Ejemplo de Uso en Cómputo Forense
@@ -64,13 +79,10 @@ Un listado ampliado y clasificado de modelos GAN (Generative Adversarial Network
 4. **Reconstrucción de imágenes**: Usar Inpainting GAN para restaurar áreas dañadas o borradas de una fotografía crítica para un caso judicial.
 5. **Detección de deepfakes**: Emplear MoCoGAN para generar ejemplos sintéticos y entrenar modelos de detección de videos manipulados.
 6. **Análisis de audio sintético**: Implementar Resemblyzer GAN para detectar voces clonadas en llamadas fraudulentas.
-7. **Validación de noticias falsas**: Aplicar GPT-GAN para analizar contenido textual y detectar noticias fabricadas que afecten investigaciones forenses.
-8. **Análisis de trazabilidad**: Utilizar DeviceTrace GAN para identificar el origen de dispositivos asociados a una evidencia digital.
-9. **Revisión de fuentes tipográficas**: Aplicar TTF-GAN para verificar la autenticidad de documentos impresos sospechosos.
 
 ---
 
-# Cómo Citar Este Trabajo
+# Cómo citar este trabajo
 Usa la siguiente entrada BibTeX si utilizas este trabajo en tu investigación:
 ```bash
 @article{joséRLeonett,
