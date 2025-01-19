@@ -89,7 +89,7 @@ Listado ampliado y clasificado de modelos GAN (Generative Adversarial Networks) 
 Usa la siguiente entrada BibTeX si utilizas este trabajo en tu investigación:
 ```bash
 @article{joséRLeonett,
-  title={Análisis FFT y Espectrográfico de audios},
+  title={Modelos Generativos Adversarios (GAN)},
   author={José R. Leonett},
   year={2024}
 }
