@@ -1,4 +1,7 @@
 # Lista de Modelos Generativos Adversarios (GAN)
+![Licencia](https://img.shields.io/badge/Licencia-GNU%20GPL%20v3-blue)
+![GitHub](https://img.shields.io/badge/Python-3.8%2B-green)
+![GitHub](https://img.shields.io/badge/Estado-Activo-brightgreen)
 
 Listado ampliado y clasificado de modelos GAN (Generative Adversarial Networks) según su tipo, modelo, URL y un breve ejemplo de aplicación al cómputo forense en imágenes, audios y videos.
 
@@ -93,5 +96,5 @@ Usa la siguiente entrada BibTeX si utilizas este trabajo en tu investigación:
 ```
 
 **Licencia**
-- Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+- Este proyecto está bajo la licencia GNU General Public License v3.0. Consulta el archivo LICENSE para más detalles.
 
